@@ -16,6 +16,17 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 0%;
 }
 
+.bottom-row {
+  margin-bottom: 2%;
+}
+
+.btn {
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 400;
+  background-color: #e70e51;
+}
+
 .section-cover {
   background-image: url('../images/EmmaBranding.jpg');
 
@@ -58,6 +69,14 @@ h1,h2,h3,h4,h5,h6 {
   background-size: contain;
 }
 
+.section-all-work {
+  text-align: center;
+  padding: 10% 7%;
+  background-color: #5bbdb8;
+  background-image: url(https://www.transparenttextures.com/patterns/diamond-upholstery.png);
+  background-size: contain;
+}
+
 .section-work-h3 {
   text-align: center;
   font-size: 20px;
@@ -78,11 +97,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .section-contact {
-  background-color: #e70e51;
+  text-align: center;
+  margin:-2.5%;
+  padding: 10% 7%;
+  background-color: #ebece0;
 }
 
 .section-contact-text {
-  padding: 10% 7%;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
