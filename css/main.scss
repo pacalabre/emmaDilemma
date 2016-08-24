@@ -8,6 +8,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: lato;
 }
 
+
 .section-cover-img {
   width: 100%;
 }
@@ -26,4 +27,10 @@ h1,h2,h3,h4,h5,h6 {
   color: #383838;
   font-size: 20px;
   margin: 5% 7%;
+}
+
+.section-work {
+  background-color: #5bbdb8;
+  background-image: url(https://www.transparenttextures.com/patterns/white-diamond-dark.png);
+  background-size: cover;
 }
