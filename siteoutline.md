@@ -75,3 +75,9 @@ Say hello.
 <link to contact page>
 
 
+//Notes for Emma
+I couldnt use that exact font since you need to pay for it, but I found a very similar on on google fonts.
+- do you want social media icons in the contact section?
+- do you want to use something as a logo for the upper right hand corner?
+
+
