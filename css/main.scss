@@ -31,6 +31,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .section-work {
   background-color: #5bbdb8;
-  background-image: url(https://www.transparenttextures.com/patterns/white-diamond-dark.png);
-  background-size: cover;
+background-image: url(https://www.transparenttextures.com/patterns/diamond-upholstery.png);
+background-size: contain;
+}
+
+.section-contact-text {
+  text-align: center;
+  font-size: 30px;
 }
