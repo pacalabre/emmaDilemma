@@ -118,6 +118,7 @@ nav {
 }
 
 .section-all-work {
+  margin-top: -2%;
   text-align: center;
   padding: 10% 7%;
   background-color: #5bbdb8;
@@ -299,23 +300,20 @@ nav ul a:hover {
 }
 
 
-@media only screen and (min-width: 0) {
+@media only screen and (min-width: 0) and (max-width: 600px) {
   .tint, .tint2, .tint3, .tint4 {
   width: 100%;
   }
 
-  .col, .row {
-  padding: 0;
+  .tint:hover:after ,.tint2:hover:after ,.tint3:hover:after ,.tint4:hover:after {
+    display: none;
   }
+
 }
 
 @media only screen and (min-width: 601px) {
   .row .col.m6 {
   width: 100%;
-  }
-
-  .col, .row {
-  padding: 0rem;
   }
 
   .tint, .tint2, .tint3, .tint4 {
