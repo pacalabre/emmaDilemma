@@ -9,7 +9,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 95%; }
 
 .row {
-  margin-bottom: 0%; }
+  margin-bottom: 0%;
+  padding: 0px; }
+
+.col {
+  padding: 0px; }
 
 .bottom-row {
   margin-bottom: 2%; }
@@ -19,11 +23,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   font-family: Lato;
   font-weight: 400;
-  background-color: #e70e51; }
+  background-color: #e70e51;
+  box-shadow: 0 0px; }
 
 /* Nav */
 nav {
-  background-color: white;
+  background-color: #ebece0;
   position: fixed; }
 
 .nav-links {
@@ -109,7 +114,7 @@ nav {
   margin-left: auto; }
 
 .section-projects-img-computers {
-  width: 500px;
+  width: 100%;
   height: 400px;
   margin: 2% 0% 0% 0%;
   z-index: 0; }
@@ -132,67 +137,134 @@ nav {
   color: #5bbdb8; }
 
 nav ul a:hover {
-  background-color: white; }
+  background-color: #ebece0; }
 
-.image-one-overlay:after {
-  content: 'Here is some text..';
-  color: #fff;
+.btn:hover {
+  background-color: #5bbdb8;
+  box-shadow: 0 0px; }
+
+.tint {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  /* change width on tint to 100% at mobile breakpoint */
+  width: 50%; }
+
+.tint:before {
+  background: none; }
+
+.tint:hover:after {
+  content: "";
+  display: block;
   position: absolute;
-  width: 50%;
-  height: 64.5%;
+  top: 0;
+  bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s; }
-
-.image-one-overlay:hover:after {
-  opacity: 1; }
-
-.image-two-overlay:after {
-  content: 'Here is some text..';
-  color: #fff;
-  position: absolute;
-  width: 50%;
-  height: 64.5%;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s; }
+  background: rgba(0, 255, 255, 0.5);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear; }
 
-.image-two-overlay:hover:after {
-  opacity: 1; }
+.tint2 {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 50%; }
 
-.image-three-overlay:after {
-  content: 'Here is some text..';
-  color: #fff;
+.tint2:before {
+  background: none; }
+
+.tint2:hover:after {
+  content: "";
+  display: block;
   position: absolute;
-  width: 50%;
-  height: 64.5%;
+  top: 0;
+  bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s; }
-
-.image-three-overlay:hover:after {
-  opacity: 1; }
-
-.image-four-overlay:after {
-  content: 'Here is some text..';
-  color: #fff;
-  position: absolute;
-  width: 50%;
-  height: 64.8%;
-  top: 1905px;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s; }
+  background: rgba(0, 255, 255, 0.5);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear; }
 
-.image-four-overlay:hover:after {
-  opacity: 1; }
+.tint3 {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 50%; }
+
+.tint3:before {
+  background: none; }
+
+.tint3:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 255, 255, 0.5);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear; }
+
+.tint4 {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 50%; }
+
+.tint4:before {
+  background: none; }
+
+.tint4:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 255, 255, 0.5);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear; }
+
+.section-contact:hover .turn-green {
+  color: #5bbdb8; }
+.section-contact:hover .turn-pink {
+  color: #e70e51; }
+
+@media only screen and (min-width: 0) {
+  .tint, .tint2, .tint3, .tint4 {
+    width: 100%; }
+
+  .col, .row {
+    padding: 0; } }
+@media only screen and (min-width: 601px) {
+  .row .col.m6 {
+    width: 100%; }
+
+  .col, .row {
+    padding: 0rem; }
+
+  .tint, .tint2, .tint3, .tint4 {
+    width: 50%; } }
+@media only screen and (min-width: 993px) {
+  .row .col.l6 {
+    width: 100%; }
+
+  .col, .row {
+    padding: 0px; } }
 
 /*# sourceMappingURL=main.css.map */
