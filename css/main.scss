@@ -14,11 +14,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .row {
   margin-bottom: 0%;
-  padding: 0px;
+  padding: 0px 0rem;
 }
 
-.col {
-  padding: 0px;
+.row .col {
+  padding: 0px 0rem;
 }
 
 .bottom-row {
@@ -141,7 +141,7 @@ nav {
 .section-projects-img-computers {
   width: 100%;
   height: 400px;
-  margin: 2% 0% 0% 0%;
+  /* margin: 2% 0% 0% 0%; */
   z-index: 0;
 }
 
