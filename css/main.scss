@@ -149,22 +149,22 @@ nav {
 .section-projects-h3 {
   display: none;
   color: rgba(225, 225, 225, 1);
-  font-size: 40px;
+  font-size: 32px;
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 30%;
   width:100%;
 }
 
 .section-projects-h4 {
   display: none;
   color: rgba(225, 225, 225, 1);
-  font-size: 40px;
+  font-size: 32px;
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 45%;
   width: 100%;
 
 }
@@ -331,8 +331,6 @@ nav ul a:hover {
     animation: 1s ease-in-out;
   }
 
-
-
 .section-contact-text:hover {
 
   .turn-green {
@@ -343,7 +341,6 @@ nav ul a:hover {
     color: #e70e51;
   }
 
-
 }
 
 
@@ -351,6 +348,12 @@ nav ul a:hover {
 
   .tint, .tint2, .tint3, .tint4 {
   width: 100%;
+  }
+
+  .tint:hover, .tint2:hover, .tint3:hover , .tint4:hover  {
+      .section-projects-h3, .section-projects-h4 {
+        display: none;
+      }
   }
 
   .tint:hover:after ,.tint2:hover:after ,.tint3:hover:after ,.tint4:hover:after {
@@ -387,6 +390,16 @@ nav ul a:hover {
 
   .section-text {
     font-size:25px
+  }
+
+  .section-projects-h3 {
+    font-size:40px;
+    margin-top:20%;
+  }
+
+  .section-projects-h4 {
+    font-size:40px;
+    margin-top: 30%;
   }
 
   .row .col.l6 {
