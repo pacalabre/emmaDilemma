@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
-  width: 98%;
+  width: 94%;
 }
 
 .row {
@@ -74,11 +74,11 @@ nav {
 }
 
 .section-cover {
-  background-image: url('../images/EmmaBranding.jpg');
+  background-image: url('../images/EmmaBrandingBig.jpg');
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 260px;
   width: 100%;
 }
 
@@ -110,6 +110,10 @@ nav {
   text-align: center;
 }
 
+.section-projects {
+  background-color: white;
+}
+
 .section-work {
   padding: 7%;
   background-color: #5bbdb8;
@@ -118,7 +122,7 @@ nav {
 }
 
 .section-all-work {
-  margin-top: -2%;
+  margin-top: -1.9%;
   text-align: center;
   padding: 10% 7%;
   background-color: #5bbdb8;
@@ -346,6 +350,8 @@ nav ul a:hover {
 
 @media only screen and (min-width: 0) and (max-width: 600px) {
 
+
+
   .tint, .tint2, .tint3, .tint4 {
   width: 100%;
   }
@@ -364,6 +370,7 @@ nav ul a:hover {
 
 @media only screen and (min-width: 601px) {
 
+
   .section-headline {
     margin: 10px 35.5%;
   }
@@ -378,6 +385,14 @@ nav ul a:hover {
 }
 
 @media only screen and (min-width: 993px) {
+
+  .row .col.l6 {
+    width: 100%;
+  }
+
+  .col, .row {
+  padding: 0px;
+  }
 
   .section-headline {
     font-size: 30px;
@@ -400,14 +415,6 @@ nav ul a:hover {
   .section-projects-h4 {
     font-size:40px;
     margin-top: 30%;
-  }
-
-  .row .col.l6 {
-    width: 100%;
-  }
-
-  .col, .row {
-  padding: 0px;
   }
 }
 

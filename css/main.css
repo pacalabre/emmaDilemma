@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: lato; }
 
 .container {
-  width: 98%; }
+  width: 94%; }
 
 .row {
   margin-bottom: 0%;
@@ -58,11 +58,11 @@ nav {
   text-transform: uppercase; }
 
 .section-cover {
-  background-image: url("../images/EmmaBranding.jpg");
+  background-image: url("../images/EmmaBrandingBig.jpg");
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 260px;
   width: 100%; }
 
 .section-cover-img {
@@ -89,6 +89,9 @@ nav {
   padding: 7%;
   text-align: center; }
 
+.section-projects {
+  background-color: white; }
+
 .section-work {
   padding: 7%;
   background-color: #5bbdb8;
@@ -96,7 +99,7 @@ nav {
   background-size: contain; }
 
 .section-all-work {
-  margin-top: -2%;
+  margin-top: -1.9%;
   text-align: center;
   padding: 10% 7%;
   background-color: #5bbdb8;
@@ -293,6 +296,12 @@ nav ul a:hover {
   .tint, .tint2, .tint3, .tint4 {
     width: 50%; } }
 @media only screen and (min-width: 993px) {
+  .row .col.l6 {
+    width: 100%; }
+
+  .col, .row {
+    padding: 0px; }
+
   .section-headline {
     font-size: 30px;
     margin: 10px 39%; }
@@ -309,12 +318,6 @@ nav ul a:hover {
 
   .section-projects-h4 {
     font-size: 40px;
-    margin-top: 30%; }
-
-  .row .col.l6 {
-    width: 100%; }
-
-  .col, .row {
-    padding: 0px; } }
+    margin-top: 30%; } }
 
 /*# sourceMappingURL=main.css.map */
