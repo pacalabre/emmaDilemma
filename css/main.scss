@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
-  width: 100%;
+  width: 98%;
 }
 
 .row {
@@ -146,6 +146,29 @@ nav {
   z-index: 0;
 }
 
+.section-projects-h3 {
+  display: none;
+  color: rgba(225, 225, 225, 1);
+  font-size: 40px;
+  z-index: 200;
+  position: absolute;
+  text-align: center;
+  margin-top: 20%;
+  width:100%;
+}
+
+.section-projects-h4 {
+  display: none;
+  color: rgba(225, 225, 225, 1);
+  font-size: 40px;
+  z-index: 200;
+  position: absolute;
+  text-align: center;
+  margin-top: 30%;
+  width: 100%;
+
+}
+
 .section-contact {
   text-align: center;
   margin-top:-2.5%;
@@ -178,6 +201,7 @@ nav ul a:hover {
 }
 
 
+
 .tint {
     position: relative;
     float: left;
@@ -206,6 +230,12 @@ nav ul a:hover {
     transition: all .3s linear;
   }
 
+  .tint:hover {
+    .section-projects-h3, .section-projects-h4 {
+      display: inline-block;
+    }
+  }
+
 .tint2 {
     position: relative;
     float: left;
@@ -216,6 +246,12 @@ nav ul a:hover {
   .tint2:before {
     background: none;
   }
+
+  .tint2:hover {
+    .section-projects-h3, .section-projects-h4 {
+      display: inline-block;
+      }
+    }
 
   .tint2:hover:after {
     content: "";
@@ -244,6 +280,12 @@ nav ul a:hover {
     background: none;
   }
 
+  .tint3:hover {
+      .section-projects-h3, .section-projects-h4 {
+        display: inline-block;
+      }
+  }
+
   .tint3:hover:after {
     content: "";
     display: block;
@@ -269,8 +311,12 @@ nav ul a:hover {
 
   .tint4:before {
     background: none;
+  }
 
-
+  .tint4:hover {
+      .section-projects-h3, .section-projects-h4 {
+        display: inline-block;
+      }
   }
 
   .tint4:hover:after {
