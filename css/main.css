@@ -62,7 +62,7 @@ nav {
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 260px;
+  height: 230px;
   width: 100%; }
 
 .section-cover-img {
@@ -105,6 +105,9 @@ nav {
   background-color: #5bbdb8;
   background-image: url(https://www.transparenttextures.com/patterns/diamond-upholstery.png);
   background-size: contain; }
+
+.allwork-btn {
+  margin-top: -3.5%; }
 
 .section-work-h3 {
   text-align: center;
@@ -151,7 +154,8 @@ nav {
 
 .section-contact-text {
   text-align: center;
-  font-size: 50px; }
+  font-size: 50px;
+  margin-top: -2%; }
 
 /* Hover States */
 .side-nav-link:hover {
@@ -287,6 +291,9 @@ nav ul a:hover {
   .tint:hover:after, .tint2:hover:after, .tint3:hover:after, .tint4:hover:after {
     display: none; } }
 @media only screen and (min-width: 601px) {
+  .section-cover {
+    height: 450px; }
+
   .section-headline {
     margin: 10px 35.5%; }
 
@@ -301,6 +308,10 @@ nav ul a:hover {
 
   .col, .row {
     padding: 0px; }
+
+  .section-cover {
+    height: 600px;
+    background-size: cover; }
 
   .section-headline {
     font-size: 30px;
