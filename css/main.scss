@@ -360,7 +360,7 @@ nav ul a:hover {
 }
 
 
-@media only screen and (min-width: 0) and (max-width: 600px) {
+@media only screen and (min-width: 0px) and (max-width: 600px) {
 
 
 
@@ -376,6 +376,11 @@ nav ul a:hover {
 
   .tint:hover:after ,.tint2:hover:after ,.tint3:hover:after ,.tint4:hover:after {
     display: none;
+  }
+
+  .nav-logo {
+    height: 45px;
+    margin-top: 5%;
   }
 
 }
@@ -414,7 +419,7 @@ nav ul a:hover {
   }
 }
 
-@media (min-width: 993px) {
+@media only screen and (min-width: 993px) {
 
   .container {
     width: 98.2%;

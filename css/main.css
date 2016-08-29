@@ -288,7 +288,7 @@ nav ul a:hover {
 .section-contact:hover .turn-pink {
   color: #e70e51; }
 
-@media only screen and (min-width: 0) and (max-width: 600px) {
+@media only screen and (min-width: 0px) and (max-width: 600px) {
   .tint, .tint2, .tint3, .tint4 {
     width: 100%; }
 
@@ -296,7 +296,11 @@ nav ul a:hover {
     display: none; }
 
   .tint:hover:after, .tint2:hover:after, .tint3:hover:after, .tint4:hover:after {
-    display: none; } }
+    display: none; }
+
+  .nav-logo {
+    height: 45px;
+    margin-top: 5%; } }
 @media only screen and (min-width: 601px) {
   .container {
     width: 97.7%; }
@@ -321,7 +325,7 @@ nav ul a:hover {
 
   .tint, .tint2, .tint3, .tint4 {
     width: 50%; } }
-@media (min-width: 993px) {
+@media only screen and (min-width: 993px) {
   .container {
     width: 98.2%; }
 
