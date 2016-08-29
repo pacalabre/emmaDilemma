@@ -55,8 +55,7 @@ nav {
 }
 
 .nav-logo {
-  height: 50px;
-  width: 50px;
+  height: 64px;
 }
 
 .nav-hamburger {
@@ -425,6 +424,10 @@ nav ul a:hover {
 
   .col, .row {
   padding: 0px;
+  }
+
+  .nav-logo {
+    margin-left: 10px;
   }
 
   .section-cover {

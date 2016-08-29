@@ -43,8 +43,7 @@ nav {
   padding-top: 7%; }
 
 .nav-logo {
-  height: 50px;
-  width: 50px; }
+  height: 64px; }
 
 .nav-hamburger {
   color: #e70e51; }
@@ -329,6 +328,9 @@ nav ul a:hover {
 
   .col, .row {
     padding: 0px; }
+
+  .nav-logo {
+    margin-left: 10px; }
 
   .section-cover {
     height: 500px;
