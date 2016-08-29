@@ -81,6 +81,7 @@ nav {
   background-repeat: no-repeat;
   height: 230px;
   width: 100%;
+  background-position: 0px -10px;
 }
 
 .section-cover-img {
@@ -345,7 +346,7 @@ nav ul a:hover {
     animation: 1s ease-in-out;
   }
 
-.section-contact-text:hover {
+.section-contact:hover {
 
   .turn-green {
     color: #5bbdb8;
@@ -390,6 +391,7 @@ nav ul a:hover {
 
   .section-cover {
     height: 450px;
+    background-position: 0px -20px;
   }
 
   .section-headline {
@@ -426,13 +428,15 @@ nav ul a:hover {
   }
 
   .section-cover {
-    height: 600px;
+    height: 500px;
     background-size: cover;
+    background-position: 0px -120px;
   }
 
   .section-headline {
     font-size: 30px;
     margin: 10px 39%;
+
   }
 
   .section-work-h3 {
