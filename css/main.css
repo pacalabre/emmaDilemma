@@ -53,6 +53,7 @@ nav {
   background-color: #e70e51; }
 
 .side-nav-link {
+  padding-top: 5%;
   font-family: Lato;
   font-weight: 300;
   color: white;
