@@ -321,7 +321,7 @@ nav ul a:hover {
 
   .tint, .tint2, .tint3, .tint4 {
     width: 50%; } }
-@media only screen and (min-width: 993px) {
+@media (min-width: 993px) {
   .container {
     width: 98.2%; }
 
