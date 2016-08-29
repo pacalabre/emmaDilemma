@@ -55,7 +55,8 @@ nav {
 }
 
 .nav-logo {
-  height: 64px;
+  height: 50px;
+  width: 50px;
 }
 
 .nav-hamburger {
@@ -67,6 +68,7 @@ nav {
 }
 
 .side-nav-link {
+  padding-top: 5%;
   font-family: Lato;
   font-weight: 300;
   color: white;
@@ -424,10 +426,6 @@ nav ul a:hover {
 
   .col, .row {
   padding: 0px;
-  }
-
-  .nav-logo {
-    margin-left: 10px;
   }
 
   .section-cover {
