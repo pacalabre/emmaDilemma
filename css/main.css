@@ -44,7 +44,8 @@ nav {
   padding-top: 13%; }
 
 .nav-logo {
-  margin-top: 10%;
+  padding: 2%;
+  margin-top: 15%;
   height: 50px; }
 
 .right {
@@ -86,10 +87,11 @@ nav {
   font-weight: bold; }
 
 .section-text {
+  line-height: 1.5;
   color: #383838;
   font-weight: 300;
   font-size: 20px;
-  margin: 5% 7%;
+  margin: 3% 7%;
   text-align: center; }
 
 .section-about {
@@ -137,7 +139,7 @@ nav {
   z-index: 0; }
 
 .section-projects-h3 {
-  font-family: Bungee Shade;
+  font-family: lato;
   display: none;
   color: #e1e1e1;
   font-size: 32px;
@@ -164,9 +166,11 @@ nav {
   background-color: #ebece0; }
 
 .section-contact-text {
+  line-height: 1.5;
   text-align: center;
   font-size: 50px;
-  margin-top: -2%; }
+  margin-top: -2%;
+  padding: 5px; }
 
 /* Hover States */
 .side-nav-link:hover {
@@ -200,7 +204,7 @@ nav ul a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(231, 14, 81, .8);
   -moz-transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -ms-transition: all .3s linear;
@@ -230,7 +234,7 @@ nav ul a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(231, 14, 81, .8);
   -moz-transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -ms-transition: all .3s linear;
@@ -257,7 +261,7 @@ nav ul a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(231, 14, 81, .8);
   -moz-transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -ms-transition: all .3s linear;
@@ -284,7 +288,7 @@ nav ul a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(231, 14, 81, .8);
   animation: 1s ease-in-out; }
 
 .section-contact:hover .turn-green {
