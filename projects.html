@@ -28,44 +28,55 @@
       </div>
     </nav>
   </div>
-  <section class="section-projects">
-      <div class="container">
-        <section class="row">
-            <div class="tint mix">
+
+  <div class="controls">
+  <label>Filter:</label>
+
+  <button class="filter" data-filter="all">All</button>
+  <button class="filter" data-filter=".category-web">Web</button>
+  <button class="filter" data-filter=".category-advertising">Advertising</button>
+
+  <label>Sort:</label>
+
+  <button class="sort" data-sort="myorder:asc">Asc</button>
+  <button class="sort" data-sort="myorder:desc">Desc</button>
+</div>
+
+<div id="Container" class="container">
+  <div class="mix category-web" data-myorder="1">
+    <div class="tint">
               <h3 class="section-projects-h3">Vaticlabs</h3>
               <h4 class="section-projects-h4">Web Content</h4>
               <img class="col s12 m6 l6 section-projects-img-computers" src="images/Vaticlabs.png">
-
             </div>
-          <div class="tint2 mix">
-            <h3 class="section-projects-h3">Bike From Work Bash</h3>
-           <h4 class="section-projects-h4">Advertising</h4>
-            <img class="col s12 m6 l6 section-projects-img-computers" src="images/BikefromWorkBash.png">
-          </div>
-        </section>
-        <section class="row bottom-row">
-          <div class="tint3 mix">
-            <h3 class="section-projects-h3">Charipick</h3>
-            <h4 class="section-projects-h4">Web Content</h4>
-            <img class="section-projects-img-computers col s12 m6 l6" src="images/Charipick.png" src="images/Charipick.png">
-          </div>
-          <div class="tint4 mix">
-            <h3 class="section-projects-h3">Full Measure Bitters</h3>
-            <h4 class="section-projects-h4">Advertising</h4>
-            <img class="image-four-overlay section-projects-img-computers col s12 m6 l6 "  src="images/bitters.jpg" src="images/KmartsEye.jpg">
-          </div>
-        </section>
-      </div>
-    </section>
+  </div>
+  <div class="mix category-web" data-myorder="2">
 
-  <section>
-    <div id="Container">
-      <div class="mix"></div>
-      <div class="mix"></div>
-      <div class="mix"></div>
-      <div class="mix"></div>
-    </div>
-  </section>
+
+  </div>
+  <div class="mix category-web" data-myorder="3">
+
+  </div>
+  <div class="mix category-advertising" data-myorder="4">
+
+  </div>
+  <div class="mix category-web" data-myorder="5">
+
+  </div>
+  <div class="mix category-web" data-myorder="6">
+
+  </div>
+  <div class="mix category-advertising" data-myorder="7">
+
+  </div>
+  <div class="mix category-advertising" data-myorder="8">
+
+  </div>
+
+  <div class="gap"></div>
+  <div class="gap"></div>
+</div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>

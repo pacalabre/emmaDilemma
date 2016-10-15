@@ -288,11 +288,8 @@ nav ul a:hover {
   color: #e70e51; }
 
 /* Plugin CSS */
-#masonry_hybrid_demo3 .grid-item .grid-item-inner {
-  position: relative;
-  background: #ececec;
-  width: 100%;
-  height: 100%; }
+#Container .mix {
+  display: none; }
 
 @media only screen and (min-width: 0) and (max-width: 600px) {
   .tint, .tint2, .tint3, .tint4 {
