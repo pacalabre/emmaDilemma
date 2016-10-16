@@ -283,11 +283,23 @@ nav ul a:hover {
 .section-contact:hover .turn-pink {
   color: #e70e51; }
 
+/* Project Page */
+.section-project-page-grid {
+  margin-top: 60px; }
+
+.filter-btns {
+  margin: 40px 0px 5px 0px; }
+
+.filter-span {
+  font-size: 20px; }
+
 .filter-btn {
   color: #e70e51;
   font-family: lato;
   border: none;
-  background-color: transparent; }
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 20px; }
 
 /* Plugin CSS */
 #Container .mix {

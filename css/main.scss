@@ -358,8 +358,18 @@ nav ul a:hover {
 
 }
 
-.filter-btns {
+/* Project Page */
 
+.section-project-page-grid {
+  margin-top: 60px;
+}
+
+.filter-btns {
+  margin: 40px 0px 5px 0px;
+}
+
+.filter-span {
+  font-size: 20px;
 }
 
 .filter-btn {
@@ -367,6 +377,8 @@ nav ul a:hover {
   font-family: lato;
   border: none;
   background-color: transparent;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 /* Plugin CSS */
