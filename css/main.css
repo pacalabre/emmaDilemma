@@ -153,7 +153,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 160px;
   width: 100%; }
 
 .section-projects-h4 {
@@ -163,7 +163,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 45%;
+  margin-top: 275px;
   width: 100%; }
 
 .section-contact {
@@ -354,12 +354,11 @@ ul > li > a:hover {
     margin: 10px 35.5%; }
 
   .section-projects-h3 {
-    font-size: 30px;
-    margin-top: 35%; }
+    font-size: 30px; }
 
   .section-projects-h4 {
     font-size: 20px;
-    margin-top: 60%; }
+    margin-top: 275px; }
 
   .tint, .tint2, .tint3, .tint4 {
     width: 50%; } }
@@ -389,11 +388,9 @@ ul > li > a:hover {
     font-size: 25px; }
 
   .section-projects-h3 {
-    font-size: 45px;
-    margin-top: 20%; }
+    font-size: 45px; }
 
   .section-projects-h4 {
-    font-size: 30px;
-    margin-top: 45%; } }
+    font-size: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
