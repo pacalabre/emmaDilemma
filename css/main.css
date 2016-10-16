@@ -58,7 +58,8 @@ nav .brand-logo {
   padding: 20px; }
 
 .nav-hamburger {
-  color: #e70e51; }
+  color: #e70e51;
+  padding: 12px 20px; }
 
 .side-nav {
   background-color: #e70e51; }
