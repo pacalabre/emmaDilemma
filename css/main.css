@@ -302,6 +302,9 @@ nav ul a:hover {
   .btn:hover .btn {
     color: #e70e51; }
 
+ul > li > a:hover {
+  background-color: white; }
+
 /* Project Page */
 .section-project-page-grid {
   margin-top: 60px; }
