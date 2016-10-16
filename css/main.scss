@@ -198,22 +198,22 @@ nav {
 
 /* Hover States */
 
-.side-nav-link:hover {
+.side-nav-link:hover, .filter-btn:hover, .nav-links:hover, .btn:hover  {
   color: #5bbdb8;
 }
 
-.nav-links:hover {
-  color: #5bbdb8;
-}
+
 
 nav ul a:hover {
   background-color: #ebece0;
 }
 
 .btn:hover {
-  background-color: #5bbdb8;
+
   box-shadow: 0 0px;
 }
+
+
 
 
 
@@ -356,6 +356,17 @@ nav ul a:hover {
     color: #e70e51;
   }
 
+}
+
+.filter-btns {
+
+}
+
+.filter-btn {
+  color: #e70e51;
+  font-family: lato;
+  border: none;
+  background-color: transparent;
 }
 
 /* Plugin CSS */

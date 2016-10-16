@@ -164,17 +164,13 @@ nav {
   margin-top: -2%; }
 
 /* Hover States */
-.side-nav-link:hover {
-  color: #5bbdb8; }
-
-.nav-links:hover {
+.side-nav-link:hover, .filter-btn:hover, .nav-links:hover, .btn:hover {
   color: #5bbdb8; }
 
 nav ul a:hover {
   background-color: #ebece0; }
 
 .btn:hover {
-  background-color: #5bbdb8;
   box-shadow: 0 0px; }
 
 .tint {
@@ -286,6 +282,12 @@ nav ul a:hover {
   color: #5bbdb8; }
 .section-contact:hover .turn-pink {
   color: #e70e51; }
+
+.filter-btn {
+  color: #e70e51;
+  font-family: lato;
+  border: none;
+  background-color: transparent; }
 
 /* Plugin CSS */
 #Container .mix {
