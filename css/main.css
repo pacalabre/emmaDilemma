@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2%; }
 
 .btn {
-  boarder-radius: 0%;
+  border-radius: 0px;
   font-size: 20px;
   font-family: Lato;
   font-weight: 400;
@@ -177,14 +177,14 @@ nav .brand-logo {
   margin-top: -2%; }
 
 /* Hover States */
-.side-nav-link:hover, .filter-btn:hover, .nav-links:hover, .btn:hover {
+.side-nav-link:hover, .nav-links:hover {
   color: #5bbdb8; }
+
+.filter-btn:hover, .btn:hover {
+  color: #e70e51; }
 
 nav ul a:hover {
   background-color: #ebece0; }
-
-.btn:hover {
-  box-shadow: 0 0px; }
 
 .tint {
   position: relative;
@@ -295,6 +295,11 @@ nav ul a:hover {
   color: #5bbdb8; }
 .section-contact:hover .turn-pink {
   color: #e70e51; }
+
+.btn:hover {
+  box-shadow: 0 0px; }
+  .btn:hover .btn {
+    color: #e70e51; }
 
 /* Project Page */
 .section-project-page-grid {

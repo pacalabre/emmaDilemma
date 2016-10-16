@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .btn {
-  boarder-radius: 0%;
+  border-radius: 0px;
   font-size: 20px;
   font-family: Lato;
   font-weight: 400;
@@ -216,8 +216,13 @@ nav .brand-logo {
 
 /* Hover States */
 
-.side-nav-link:hover, .filter-btn:hover, .nav-links:hover, .btn:hover  {
+.side-nav-link:hover, .nav-links:hover {
   color: #5bbdb8;
+}
+
+.filter-btn:hover, , .btn:hover  {
+
+  color: #e70e51;
 }
 
 
@@ -225,15 +230,6 @@ nav .brand-logo {
 nav ul a:hover {
   background-color: #ebece0;
 }
-
-.btn:hover {
-
-  box-shadow: 0 0px;
-}
-
-
-
-
 
 .tint {
     position: relative;
@@ -243,126 +239,126 @@ nav ul a:hover {
     width: 50%;
   }
 
-  .tint:before {
-    background: none;
-  }
+.tint:before {
+  background: none;
+}
 
-  .tint:hover:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(231, 14, 81, .8);
-    -moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
-  }
+.tint:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(231, 14, 81, .8);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
 
-  .tint:hover {
-    .section-projects-h3, .section-projects-h4 {
-      display: inline-block;
-    }
+.tint:hover {
+  .section-projects-h3, .section-projects-h4 {
+    display: inline-block;
   }
+}
 
 .tint2 {
-    position: relative;
-    float: left;
-    cursor: pointer;
-    width: 50%;
-  }
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 50%;
+}
 
-  .tint2:before {
-    background: none;
-  }
+.tint2:before {
+  background: none;
+}
 
-  .tint2:hover {
+.tint2:hover {
+  .section-projects-h3, .section-projects-h4 {
+    display: inline-block;
+    }
+}
+
+.tint2:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(231, 14, 81, .8);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.tint3 {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 50%;
+}
+
+.tint3:before {
+  background: none;
+}
+
+.tint3:hover {
     .section-projects-h3, .section-projects-h4 {
       display: inline-block;
-      }
     }
+}
 
-  .tint2:hover:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(231, 14, 81, .8);
-    -moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
-  }
+.tint3:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(231, 14, 81, .8);
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
 
-  .tint3 {
-    position: relative;
-    float: left;
-    cursor: pointer;
-    width: 50%;
-  }
+.tint4 {
+  position: relative;
+  float: left;
+  cursor: pointer;
+  width: 50%;
+}
 
-  .tint3:before {
-    background: none;
-  }
+.tint4:before {
+  background: none;
+}
 
-  .tint3:hover {
-      .section-projects-h3, .section-projects-h4 {
-        display: inline-block;
-      }
-  }
+.tint4:hover {
+    .section-projects-h3, .section-projects-h4 {
+      display: inline-block;
+    }
+}
 
-  .tint3:hover:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(231, 14, 81, .8);
-    -moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
-  }
-
-  .tint4 {
-    position: relative;
-    float: left;
-    cursor: pointer;
-    width: 50%;
-  }
-
-  .tint4:before {
-    background: none;
-  }
-
-  .tint4:hover {
-      .section-projects-h3, .section-projects-h4 {
-        display: inline-block;
-      }
-  }
-
-  .tint4:hover:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(231, 14, 81, .8);
-    animation: 1s ease-in-out;
-  }
+.tint4:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(231, 14, 81, .8);
+  animation: 1s ease-in-out;
+}
 
 .section-contact:hover {
 
@@ -374,6 +370,14 @@ nav ul a:hover {
     color: #e70e51;
   }
 
+}
+
+.btn:hover {
+  box-shadow: 0 0px;
+
+  .btn {
+    color: #e70e51;
+  }
 }
 
 /* Project Page */
