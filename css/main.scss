@@ -38,24 +38,41 @@ h1,h2,h3,h4,h5,h6 {
 /* Nav */
 
 nav {
-  background-color: #ebece0;
+  background-color: #fff;
   position: fixed;
+  height: 90px;
 }
 
 .nav-links {
   color: #e70e51;
-    padding: 10% 0% 0% 0%;
+
     text-transform: uppercase;
     font-weight: 300;
     font-size: 25px;
 }
 
 .nav-links-contact {
-  padding-top: 7%;
+  padding-top: 16%;
+}
+
+.nav-ul {
+  margin-right: 20px;
+}
+
+.nav-ul-li {
+  padding: 5% 0% 0% 0%;
+}
+
+.nav-ul-li-contact {
+  padding: 19% 0% 0% 0%;
 }
 
 .nav-logo {
   height: 50px;
+}
+
+nav .brand-logo {
+  padding: 20px;
 }
 
 .nav-hamburger {
@@ -100,10 +117,11 @@ nav {
 }
 
 .section-text {
+  line-height: 1.5;
   color: #383838;
   font-weight: 300;
   font-size: 20px;
-  margin: 5% 7%;
+  margin: 3% 7%;
   text-align: center;
 }
 
@@ -160,7 +178,7 @@ nav {
 }
 
 .section-projects-h3 {
-  font-family: Bungee Shade;
+  font-family: lato;
   display: none;
   color: rgba(225, 225, 225, 1);
   font-size: 32px;
@@ -237,7 +255,7 @@ nav ul a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0, 0.8);
+    background: rgba(231, 14, 81, .8);
     -moz-transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -ms-transition: all .3s linear;
@@ -276,7 +294,7 @@ nav ul a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0, 0.8);
+    background: rgba(231, 14, 81, .8);
     -moz-transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -ms-transition: all .3s linear;
@@ -309,7 +327,7 @@ nav ul a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0, 0.8);
+    background: rgba(231, 14, 81, .8);
     -moz-transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -ms-transition: all .3s linear;
@@ -342,7 +360,7 @@ nav ul a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0, 0.8);
+    background-color: rgba(231, 14, 81, .8);
     animation: 1s ease-in-out;
   }
 
