@@ -34,6 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 .modal.modal-fixed-footer {
   height: 80%; }
 
+.row .col .modal-project-img {
+  padding-top: 25px; }
+
 /* Nav */
 nav {
   background-color: #fff;
