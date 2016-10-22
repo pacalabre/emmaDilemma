@@ -35,6 +35,15 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 0 0px;
 }
 
+.modal {
+  max-height: 80%;
+  width: 90%;
+}
+
+.modal.modal-fixed-footer {
+  height: 80%;
+}
+
 /* Nav */
 
 nav {
