@@ -258,9 +258,39 @@ nav .brand-logo {
   margin-top: -2%;
 }
 
+.footer {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.social-btns {
+  padding-top: -30px;
+}
+
+.social-btns-li {
+  padding: 0px 10px;
+}
+
+.social-ul {
+  text-align: center;
+  display:inline-block;
+  margin: 0px 35px;
+}
+
+.social-li {
+  float: left;
+  margin: 0px 10px;
+}
+
+.social-li-h3 {
+  color: #e70e51;
+}
+
+
 /* Hover States */
 
-.side-nav-link:hover, .nav-links:hover {
+.side-nav-link:hover, .nav-links:hover, .social-li-h3:hover {
   color: #5bbdb8;
 }
 
