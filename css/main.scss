@@ -9,6 +9,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: lato;
 }
 
+
 .container {
   width: 90%;
 }
@@ -16,6 +17,7 @@ h1,h2,h3,h4,h5,h6 {
 .row {
   margin-bottom: 0%;
   padding: 0px 0rem;
+  overflow: hidden;
 }
 
 .row .col {
@@ -182,6 +184,28 @@ nav .brand-logo {
   width: 150px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.section-projects-row-one {
+  line-height: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.section-projects-row-two {
+  line-height: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.section-projects-block-one, .section-projects-block-three {
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+.section-projects-block-two, .section-projects-block-four {
+  margin-left: 5px;
+  padding-right: 5px;
 }
 
 .section-projects-img-computers {
@@ -429,7 +453,33 @@ ul > li > a:hover {
 
 @media only screen and (min-width: 0) and (max-width: 600px) {
 
+  .section-projects-row-one {
+    padding-bottom: 0px;
+  }
 
+  .section-projects-row-two {
+    padding-top: 0px;
+  }
+
+  .section-projects-block-one {
+    padding-bottom: 5px;
+    padding-right: 0px;
+  }
+
+  .section-projects-block-two {
+    margin: 5px 0px;
+    padding: 0px;
+  }
+
+  .section-projects-block-three {
+    margin: 5px 0px;
+    padding: 0px;
+  }
+
+  .section-projects-block-four {
+    margin: 5px 0px ;
+    padding: 0px;
+  }
 
   .tint, .tint2, .tint3, .tint4 {
   width: 100%;
@@ -449,13 +499,14 @@ ul > li > a:hover {
 
 @media only screen and (min-width: 601px) {
 
+
   .container {
     width: 97.7%;
   }
 
-  /* .row .col.m6 {
+   .row .col.m6 {
   width: 100%;
-  } */
+  }
 
   .nav-logo {
     margin-left: 10px;
@@ -486,16 +537,17 @@ ul > li > a:hover {
 
 @media (min-width: 993px) {
 
+
   .container {
-    width: 98.2%;
+    width: 97.5%;
   }
 
-  /* .row .col.l6 {
+   .row .col.l6 {
     width: 100%;
-  }*/
+  }
 
-  .col, .row {
-  padding: 0px;
+  .col {
+    padding: 0px;
   }
 
   .section-cover {
