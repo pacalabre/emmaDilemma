@@ -117,7 +117,6 @@ nav .brand-logo {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  background-position: 0px -10px;
   padding: 40px;
 }
 
@@ -519,8 +518,17 @@ ul > li > a:hover {
     margin-left: 10px;
   }
 
+  .section-cover-img {
+    visibility: hidden;
+  }
+
   .section-cover {
-    background-position: 0px -20px;
+    background-image: url('../images/emma-logo-transparent.png');
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: 50% 100px;
   }
 
   .section-headline {
@@ -556,10 +564,7 @@ ul > li > a:hover {
     padding: 0px;
   }
 
-  .section-cover {
-    background-size: cover;
-    background-position: 0px -120px;
-  }
+
 
   .section-headline {
     font-size: 30px;
