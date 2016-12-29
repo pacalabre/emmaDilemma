@@ -5,6 +5,10 @@ body {
   background-color: #ebece0;
 }
 
+main {
+  margin-top: 20px;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: lato;
 }
@@ -109,18 +113,20 @@ nav .brand-logo {
 
 .section-cover {
   background-color: #e70e51;
-
   background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
   width: 100%;
   background-position: 0px -10px;
+  padding: 40px;
 }
 
 .section-cover-img {
+  background: url(images/emma-logo-transparent.png) center center no-repeat;
   width: 100%;
-  display: none;
+  background-size: contain;
+  background-color: #e70e51;
+  padding-top: 85px;
 }
 
 .section-headline {
@@ -514,7 +520,6 @@ ul > li > a:hover {
   }
 
   .section-cover {
-    height: 450px;
     background-position: 0px -20px;
   }
 
@@ -552,7 +557,6 @@ ul > li > a:hover {
   }
 
   .section-cover {
-    height: 500px;
     background-size: cover;
     background-position: 0px -120px;
   }
