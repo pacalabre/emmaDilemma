@@ -229,7 +229,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 160px;
+  margin-top: 70px;
   width:100%;
 }
 
@@ -240,7 +240,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 275px;
+  margin-top: 150px;
   width: 100%;
 
 }
@@ -571,7 +571,6 @@ ul > li > a:hover {
 
   .section-projects-h4 {
     font-size:20px;
-    margin-top: 275px;
   }
 
   .tint, .tint2, .tint3, .tint4 {
@@ -581,6 +580,13 @@ ul > li > a:hover {
 
 @media (min-width: 993px) {
 
+  .section-projects-h3 {
+    margin-top: 100px;
+  }
+
+  .section-projects-h4 {
+    margin-top: 200px;
+  }
 
   .container {
     width: 97.5%;
