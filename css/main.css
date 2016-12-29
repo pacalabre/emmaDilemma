@@ -83,11 +83,12 @@ nav .brand-logo {
   text-transform: uppercase; }
 
 .section-cover {
+  background-color: #e70e51;
   background-image: url("../images/EmmaBrandingBig.jpg");
-  background-attachment: fixed;
-  background-size: contain;
+  background-attachment: scroll;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 230px;
+  height: 300px;
   width: 100%;
   background-position: 0px -10px; }
 
