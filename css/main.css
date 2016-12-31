@@ -133,7 +133,7 @@ nav .brand-logo {
 .section-all-work {
   margin-top: 0%;
   text-align: center;
-  padding: 10% 7%;
+  padding: 65px 7%;
   background-color: #5bbdb8;
   background-image: url(https://www.transparenttextures.com/patterns/diamond-upholstery.png);
   background-size: contain; }
@@ -209,7 +209,7 @@ nav .brand-logo {
 .section-contact-text {
   text-align: center;
   font-size: 50px;
-  margin-top: -2%; }
+  margin-top: 0px; }
 
 .footer {
   text-align: center;
@@ -232,7 +232,8 @@ nav .brand-logo {
   margin: 0px 10px; }
 
 .social-li-h3 {
-  color: #e70e51; }
+  color: #e70e51;
+  font-size: 30px; }
 
 /* Hover States */
 .side-nav-link:hover, .nav-links:hover, .social-li-h3:hover {
