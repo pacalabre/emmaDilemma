@@ -187,7 +187,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 70px;
+  top: 30%;
   width: 100%; }
 
 .section-projects-h4 {
@@ -197,7 +197,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 150px;
+  top: 50%;
   width: 100%; }
 
 .section-contact {
@@ -349,9 +349,9 @@ nav ul a:hover {
   background-color: rgba(231, 14, 81, 0.8);
   animation: 1s ease-in-out; }
 
-.section-contact:hover .turn-green {
+.section-contact:hover .turn-green, .footer:hover .turn-green {
   color: #5bbdb8; }
-.section-contact:hover .turn-pink {
+.section-contact:hover .turn-pink, .footer:hover .turn-pink {
   color: #e70e51; }
 
 .btn:hover {
@@ -419,9 +419,6 @@ ul > li > a:hover {
   .container {
     width: 97.7%; }
 
-  .row .col.m6 {
-    width: 100%; }
-
   .nav-logo {
     margin-left: 10px; }
 
@@ -448,17 +445,8 @@ ul > li > a:hover {
   .tint, .tint2, .tint3, .tint4 {
     width: 50%; } }
 @media (min-width: 993px) {
-  .section-projects-h3 {
-    margin-top: 100px; }
-
-  .section-projects-h4 {
-    margin-top: 200px; }
-
   .container {
     width: 97.5%; }
-
-  .row .col.l6 {
-    width: 100%; }
 
   .col {
     padding: 0px; }

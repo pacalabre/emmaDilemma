@@ -229,8 +229,8 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 70px;
-  width:100%;
+  top: 30%;
+  width: 100%;
 }
 
 .section-projects-h4 {
@@ -240,7 +240,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  margin-top: 150px;
+  top: 50%;
   width: 100%;
 
 }
@@ -434,7 +434,7 @@ nav ul a:hover {
   animation: 1s ease-in-out;
 }
 
-.section-contact:hover {
+.section-contact:hover, .footer:hover {
 
   .turn-green {
     color: #5bbdb8;
@@ -540,10 +540,6 @@ ul > li > a:hover {
     width: 97.7%;
   }
 
-   .row .col.m6 {
-  width: 100%;
-  }
-
   .nav-logo {
     margin-left: 10px;
   }
@@ -580,27 +576,13 @@ ul > li > a:hover {
 
 @media (min-width: 993px) {
 
-  .section-projects-h3 {
-    margin-top: 100px;
-  }
-
-  .section-projects-h4 {
-    margin-top: 200px;
-  }
-
   .container {
     width: 97.5%;
-  }
-
-   .row .col.l6 {
-    width: 100%;
   }
 
   .col {
     padding: 0px;
   }
-
-
 
   .section-headline {
     font-size: 30px;
