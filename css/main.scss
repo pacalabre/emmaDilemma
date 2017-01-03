@@ -335,6 +335,27 @@ nav .brand-logo {
   font-size: 20px;
 }
 
+/* About Page */
+
+.about-header {
+  background-color: #e70e51;
+  height: 200px;
+  background-image: url(https://www.transparenttextures.com/patterns/diamond-upholstery.png);
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.about-h1 {
+  text-align: center;
+  line-height: 2.5;
+  color: white;
+}
+
+.about-p {
+  font-size: 16px;
+  text-align: center;
+}
+
 /* Hover States */
 
 .side-nav-link:hover, .nav-links:hover, .social-li-h3:hover {
@@ -537,6 +558,10 @@ ul > li > a:hover {
   .section-projects-block-four {
     margin: 5px 0px ;
     padding: 0px;
+  }
+
+  .about-header {
+  background-attachment: scroll;
   }
 
   .tint, .tint2, .tint3, .tint4 {
