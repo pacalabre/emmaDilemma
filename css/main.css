@@ -275,6 +275,12 @@ nav .brand-logo {
   font-size: 20px; }
 
 /* About Page */
+.emma-img {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  border-radius: 50%; }
+
 .about-header {
   background-color: #e70e51;
   height: 200px;
@@ -490,7 +496,10 @@ ul > li > a:hover {
     font-size: 20px; }
 
   .tint, .tint2, .tint3, .tint4 {
-    width: 50%; } }
+    width: 50%; }
+
+  .emma-img {
+    width: 175px; } }
 @media (min-width: 993px) {
   .container {
     width: 97.5%; }
@@ -512,6 +521,9 @@ ul > li > a:hover {
     font-size: 45px; }
 
   .section-projects-h4 {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  .emma-img {
+    width: 200px; } }
 
 /*# sourceMappingURL=main.css.map */
