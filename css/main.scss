@@ -504,10 +504,12 @@ nav ul a:hover {
 
   .turn-green {
     color: #5bbdb8;
+    transition: 1s;
   }
 
   .turn-pink {
     color: #e70e51;
+    transition: .5s;
   }
 
 }

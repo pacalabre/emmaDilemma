@@ -407,9 +407,11 @@ nav ul a:hover {
   animation: 1s ease-in-out; }
 
 .section-contact:hover .turn-green, .footer:hover .turn-green {
-  color: #5bbdb8; }
+  color: #5bbdb8;
+  transition: 1s; }
 .section-contact:hover .turn-pink, .footer:hover .turn-pink {
-  color: #e70e51; }
+  color: #e70e51;
+  transition: .5s; }
 
 .btn:hover {
   box-shadow: 0 0px; }
