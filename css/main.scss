@@ -337,6 +337,10 @@ nav .brand-logo {
 
 /* About Page */
 
+.about-main {
+  margin: 30px 0px 40px 0px;
+}
+
 .emma-img {
   display: block;
   margin: 20px auto;
@@ -358,9 +362,14 @@ nav .brand-logo {
   color: white;
 }
 
+.about-h2 {
+  text-align: center;
+}
+
 .about-p {
   font-size: 16px;
   text-align: center;
+  margin-top: 5px;
 }
 
 /* Hover States */
