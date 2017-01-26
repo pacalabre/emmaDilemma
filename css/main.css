@@ -284,6 +284,18 @@ nav .brand-logo {
   text-transform: uppercase;
   font-size: 20px; }
 
+/* Funsies Page */
+.funsies-p {
+  text-align: center;
+  font-size: 20px;
+  margin: 40px 0px; }
+
+.section-funsies-h3 {
+  top: 35%; }
+
+.funsies-h6 {
+  margin-top: 60px; }
+
 /* About Page */
 .about-main {
   margin: 30px 0px 40px 0px; }
