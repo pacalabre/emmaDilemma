@@ -121,8 +121,11 @@ nav .brand-logo {
   background: url(images/emma-logo-transparent.png) center center no-repeat;
   width: 100%;
   background-size: contain;
-  background-color: #e70e51;
-  padding-top: 85px; }
+  /*background-color: #e70e51;*/
+  padding-top: 85px;
+  position: relative;
+  z-index: 996;
+  display: block; }
 
 .section-headline {
   color: #383838;
@@ -534,11 +537,11 @@ ul > li > a:hover {
   .nav-logo {
     margin-left: 10px; }
 
-  .section-cover-img {
-    visibility: hidden; }
-
+  /*.section-cover-img {
+    visibility: hidden;
+  }*/
   .section-cover {
-    background-image: url("../images/emma-logo-transparent.png");
+    /* background-image: url('../images/emma-logo-transparent.png');*/
     background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
