@@ -685,8 +685,12 @@ ul > li > a:hover {
     visibility: hidden;
   }*/
 
+  .section-cover-img {
+    visibility: hidden;
+  }
+
   .section-cover {
-   /* background-image: url('../images/emma-logo-transparent.png');*/
+    background-image: url('../images/emma-logo-transparent.png');
     background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
@@ -725,6 +729,10 @@ ul > li > a:hover {
     padding: 0px;
   }
 
+  .section-cover-img {
+    visibility: visible;
+  }
+
   .section-headline {
     font-size: 30px;
     margin: 10px 39%;
@@ -758,6 +766,7 @@ ul > li > a:hover {
   .background-div-video {
     display: block;
   }
+
 
 }
 
