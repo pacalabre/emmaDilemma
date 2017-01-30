@@ -224,7 +224,7 @@ nav .brand-logo {
   z-index: 200;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 52%;
   width: 100%; }
 
 .section-contact {
@@ -558,7 +558,8 @@ ul > li > a:hover {
     font-size: 30px; }
 
   .section-projects-h4 {
-    font-size: 20px; }
+    font-size: 20px;
+    top: 55%; }
 
   .tint, .tint2, .tint3, .tint4 {
     width: 50%; }
