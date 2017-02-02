@@ -582,7 +582,8 @@ ul > li > a:hover {
     visibility: visible; }
 
   .section-cover {
-    background-image: none; }
+    background-image: none;
+    padding: 100px; }
 
   .section-headline {
     font-size: 30px;

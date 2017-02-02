@@ -3,7 +3,6 @@ $(function() {
   $('#Container').mixItUp();
 });
 
-
 //Materialize Menu
 
 $(document).ready(function() {
