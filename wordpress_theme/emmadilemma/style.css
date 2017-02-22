@@ -1,5 +1,3 @@
-@import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
-@import "https://fonts.googleapis.com/css?family=Bungee+Shade|Fontdiner+Swanky|Slackey";
 body {
   background-color: #ebece0; }
 
@@ -20,7 +18,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
   position: relative; }
 
 .container {
-  width: 90%; }
+  width: 95%; }
 
 .row {
   margin-bottom: 0%;
@@ -61,11 +59,12 @@ nav {
   position: fixed;
   height: 90px; }
 
-.nav-links {
+.nav-ul > li  a{
   color: #e70e51;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 25px; }
+  font-size: 25px;
+  margin-top: 13px; }
 
 .nav-links-contact {
   padding-top: 15%; }
@@ -90,7 +89,8 @@ nav .brand-logo {
   padding: 12px 20px; }
 
 .side-nav {
-  background-color: #e70e51; }
+  background-color: #e70e51;
+  top: 30px; }
 
 .side-nav-link {
   padding-top: 5%;
@@ -98,6 +98,14 @@ nav .brand-logo {
   font-weight: 300;
   color: white;
   text-transform: uppercase; }
+  
+.current-menu-item {
+  border-bottom: solid #5bbdb8;
+}
+
+.current-menu-item li a {
+  color: white;
+}
 
 /* Video Styles */
 .background-div-video {
@@ -122,10 +130,9 @@ nav .brand-logo {
   padding: 40px; }
 
 .section-cover-img {
-  background: url(images/emma-logo-transparent.png) center center no-repeat;
+  background: url(/wp-content/themes/emmadilemma/images/emma-logo-transparent.png) center center no-repeat;
   width: 100%;
   background-size: contain;
-  /*background-color: #e70e51;*/
   padding-top: 85px;
   position: relative;
   z-index: 996;
@@ -137,7 +144,7 @@ nav .brand-logo {
   font-size: 25px;
   border-bottom: 3px solid #ced4d9;
   padding-bottom: 10px;
-  margin: 10px 28%;
+  margin: 50px 40%;
   font-weight: bold; }
 
 .section-text {
@@ -153,12 +160,13 @@ nav .brand-logo {
   text-align: center; }
 
 .section-projects {
-  background-color: white; }
+  background-color: white;
+  line-height: 0; }
 
 .section-work {
   padding: 7%;
   background-color: #5bbdb8;
-  background-image: url(../images/diamond-upholstery.png);
+  background-image: url(/wp-content/themes/emmadilemma/images/diamond-upholstery.png);
   background-size: contain; }
 
 .section-all-work {
@@ -166,7 +174,7 @@ nav .brand-logo {
   text-align: center;
   padding: 65px 7%;
   background-color: #5bbdb8;
-  background-image: url(../images/diamond-upholstery.png);
+  background-image: url(/wp-content/themes/emmadilemma/images/diamond-upholstery.png);
   background-size: contain; }
 
 .allwork-btn {
@@ -203,11 +211,10 @@ nav .brand-logo {
 .section-projects-block-two, .section-projects-block-four {
   margin-left: 5px;
   padding-right: 5px; }
-
+  
 .section-projects-img-computers {
   max-width: 100%;
   height: auto;
-  /* margin: 2% 0% 0% 0%; */
   z-index: 0; }
 
 .section-projects-h3 {
@@ -242,11 +249,6 @@ nav .brand-logo {
   font-size: 50px;
   margin-top: 0px; }
 
-.footer {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px; }
-
 .social-btns {
   padding-top: -30px; }
 
@@ -269,9 +271,32 @@ nav .brand-logo {
 /* Project Page */
 .section-project-page-grid {
   margin: 60px 0px; }
+  
+.category-nav {
+  display: inline;
+  background: #e70e51;
+}
+
+.section-blog-content {
+  margin-bottom: 40px;
+}
+
+.category-nav-item {
+  text-align: center;
+}
+
+.category-nav-item-h3 {
+  font-size: 20px;
+  color: white;
+}
 
 .gallery-container {
-  line-height: 0; }
+  line-height: 0; 
+}
+
+.tint4 > .wp-post-image  {
+  margin-top: 15px;
+}
 
 .project-link {
   display: block !important; }
@@ -310,6 +335,31 @@ nav .brand-logo {
   background-color: transparent;
   text-transform: uppercase;
   font-size: 20px; }
+  
+.size-post-thumbnail {
+  height: 100%;
+  width: 100%;
+}
+
+.post-meta-key {
+  display: none;
+}
+
+/* Single Page */
+
+.single-main {
+  display: block;
+  text-align: center;
+}
+
+.single-h2 {
+  margin-top: 75px;
+}
+
+.single-main > div > p > img {
+  height: 100%;
+  width: 100%;
+} 
 
 /* Funsies Page */
 .funsies-p {
@@ -327,16 +377,14 @@ nav .brand-logo {
 .about-main {
   margin: 30px 0px 40px 0px; }
 
-.emma-img {
-  display: block;
-  margin: 20px auto;
-  width: 150px;
-  border-radius: 50%; }
+.wp-image-6 {
+  border-radius: 50%;
+}
 
 .about-header {
   background-color: #e70e51;
   height: 200px;
-  background-image: url(../images/diamond-upholstery.png);
+  background-image: url(/wp-content/themes/emmadilemma/images/diamond-upholstery.png);
   background-attachment: fixed;
   width: 100%; }
 
@@ -369,9 +417,15 @@ nav .brand-logo {
   border: thin solid;
   box-sizing: border-box;
   height: 200px; }
+  
+ /* Footer */
+  
+.footer {
+  text-align: center;
+  margin: 60px 0px; }
 
 /* Hover States */
-.side-nav-link:hover, .nav-links:hover, .social-li-h3:hover {
+.side-nav-link:hover, .nav-ul > li  a:hover, .social-li-h3:hover, .category-nav-item-h3:hover {
   color: #5bbdb8; }
 
 .filter-btn:hover, .btn:hover {
@@ -532,6 +586,10 @@ ul > li > a:hover {
 
   .about-header {
     background-attachment: scroll; }
+    
+  .section-headline-blog-page {
+    margin: 50px 40% 30px 40%;
+  }
 
   .tint, .tint2, .tint3, .tint4 {
     width: 100%; }
@@ -541,29 +599,34 @@ ul > li > a:hover {
 
   .tint:hover:after, .tint2:hover:after, .tint3:hover:after, .tint4:hover:after {
     display: none; } }
+    
+
 @media only screen and (min-width: 601px) {
-  .container {
-    width: 97.7%; }
+  
+  .tint4 > .wp-post-image {
+   margin-top: 0px;
+   }
 
   .nav-logo {
     margin-left: 10px; }
 
-  /*.section-cover-img {
-    visibility: hidden;
-  }*/
   .section-cover-img {
     visibility: hidden; }
 
   .section-cover {
-    background-image: url("../images/emma-logo-transparent.png");
+    background-image: url("/wp-content/themes/emmadilemma/images/emma-logo-transparent.png");
     background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    background-position: 50% 100px; }
+    background-position: 50% 170px; }
 
   .section-headline {
-    margin: 10px 35.5%; }
+    margin: 50px 40%; }
+    
+  .section-headline-blog-page {
+    margin: 50px 40% 30px 40%;
+  }
 
   .section-projects-h3 {
     font-size: 30px; }
@@ -576,24 +639,43 @@ ul > li > a:hover {
     width: 50%; }
 
   .emma-img {
-    width: 175px; } }
+    width: 175px; } 
+  
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .section-cover-img {
+    margin-top: 85px;
+  }
+}
+
 @media (min-width: 993px) {
-  .container {
-    width: 97.5%; }
 
   .col {
     padding: 0px; }
 
   .section-cover-img {
-    visibility: visible; }
+    visibility: visible;
+    margin-top: 0px; }
 
   .section-cover {
     background-image: none;
-    padding: 100px; }
+    padding: 70px; }
 
   .section-headline {
     font-size: 30px;
     margin: 10px 39%; }
+    
+  .section-headline-blog-page {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+  
+  .category-nav-item {
+    float: left;
+    padding: 0px 20px;
+    text-align: inherit;
+  }
 
   .section-work-h3 {
     font-size: 25px; }
@@ -608,12 +690,14 @@ ul > li > a:hover {
     font-size: 35px; }
 
   .section-projects-h4 {
-    font-size: 30px; }
+    font-size: 30px;
+    top: 45%;}
 
   .emma-img {
     width: 200px; }
 
   .background-div-video {
-    display: block; } }
+    display: block; } 
+  
+}
 
-/*# sourceMappingURL=main.css.map */
