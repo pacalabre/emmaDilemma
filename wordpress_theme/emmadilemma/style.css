@@ -1,3 +1,18 @@
+/*
+Theme Name: The Emma Dilemma
+Theme URI: None
+Author: Paul Calabrese
+Author URI: PaulCalabrese.me
+Description: This is a wordpress theme made specifically for Emma.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:  portfolio, accessibility-ready
+Text Domain: emmadilemma
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
 body {
   background-color: #ebece0; }
 
