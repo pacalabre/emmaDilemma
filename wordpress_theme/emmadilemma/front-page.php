@@ -56,7 +56,7 @@ get_header(); ?>
     ?>
     <section class="row">
       <?php while( $featured->have_posts() ) : $featured->the_post() ?>
-        <a class="s6 m6 l6">
+        <a class="s6 m6 l6" href="<?php the_permalink(); ?>">
           <div class="tint4 s12 m5 l5 feature-projects">
             <h3 class="section-projects-h3"><?php the_title(); ?></h3>
             <h4 class="section-projects-h4"><?php the_meta(); ?></h4>
