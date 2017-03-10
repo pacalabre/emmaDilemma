@@ -20,7 +20,7 @@ get_header(); ?>
 <section class="section-about">
   <h3 class="section-headline">THE WRITER</h3>
   <h5 class="section-text">When it comes to hiring a copywriter, you want someone who can write in all kinds of voices. And that’s exactly what I do. Some people call me the master of words, I tell them that’s weird.</h5>
-  <a href="/index.php?page_id=4" class="btn">Learn More</a>
+  <a href="/about" class="btn">Learn More</a>
 </section>
 <section class="section-work">
   <div class="container-fluid">
@@ -44,15 +44,15 @@ get_header(); ?>
       </section>
     </div>
   </div>
-</section> 
+</section>
 <section class="section-projects">
   <div class="container-fluid">
-    <?php 
-      $args = array( 
+    <?php
+      $args = array(
       	'tag'   => 'featured',
       );
       $featured = new WP_Query( $args );
-      if ( $featured->have_posts() ) : 
+      if ( $featured->have_posts() ) :
     ?>
     <section class="row">
       <?php while( $featured->have_posts() ) : $featured->the_post() ?>
@@ -68,10 +68,10 @@ get_header(); ?>
     </section>
   </div>
 </section>
-  
+
 
 <?php
-    get_template_part('template-parts/allwork', 'single'); 
-    get_template_part('template-parts/sayhello', 'single'); 
+    get_template_part('template-parts/allwork', 'single');
+    get_template_part('template-parts/sayhello', 'single');
     get_footer();
 ?>

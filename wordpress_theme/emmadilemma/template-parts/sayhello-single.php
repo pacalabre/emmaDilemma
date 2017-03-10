@@ -8,5 +8,5 @@
 ?>
 <section class="section-contact">
   <h2 class="section-contact-text">Say <span class="turn-green">hello</span><span class="turn-pink">.</span></h2>
-  <a href="/index.php?page_id=12" class="btn">Contact</a>
+  <a href="/contact" class="btn">Contact</a>
 </section>
