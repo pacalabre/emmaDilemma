@@ -1,7 +1,7 @@
 <?php
 /**
  * The header template file
- * 
+ *
  *
  *
  * @package emmadilemma
@@ -21,10 +21,10 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="/index.php?page_id=14" class="brand-logo"><img class="nav-logo" src="/wp-content/themes/emmadilemma/images/emmaLogo2.png"></a>
+        <a href="/" class="brand-logo"><img class="nav-logo" src="/wp-content/themes/emmadilemma/images/emmaLogo2.png"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="nav-hamburger material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down nav-ul">
-          <?php 
+          <?php
             wp_nav_menu(array(
                 'theme_location' => 'primary',
                 'menu_class'     => 'primary-menu',
