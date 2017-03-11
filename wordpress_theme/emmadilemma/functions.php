@@ -1,13 +1,13 @@
-<?php 
+<?php
     // include custom jQuery
 	function shapeSpace_include_custom_jquery() {
-	
+
 		wp_deregister_script('jquery');
 		wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
-	
+
 	}
 	add_action('wp_enqueue_scripts', 'shapeSpace_include_custom_jquery');
-    
+
     //add scripts and stylesheets
     function enqueue_emmadilemma_styles() {
         wp_enqueue_script( 'materialize-js','//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js', array('jquery'));
@@ -20,7 +20,7 @@
     }
 
     add_action("wp_enqueue_scripts", "enqueue_emmadilemma_styles");
-    
+
     // Register a custom primary navigation menu
     function customtheme_setup() {
     register_nav_menus( array(
@@ -30,9 +30,9 @@
         add_theme_support( 'title-tag' );
 }
  add_action("after_setup_theme", "customtheme_setup");
- 
+
  add_theme_support( 'post-thumbnails' );
- 
+
  // Custom Post Types
  function cptui_register_my_cpts_post_headline_two() {
 
@@ -71,6 +71,7 @@
 }
 
 add_action( 'init', 'cptui_register_my_cpts_post_headline_two' );
+
 
 
 ?>
