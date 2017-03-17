@@ -720,10 +720,10 @@ ul > li > a:hover {
 
 @media (min-width: 1100px) {
 
-  .section-projects-h3 {
+  .feature-projects .section-projects-h3 {
     font-size: 45px; }
 
-  .section-projects-h4 {
+  .feature-projects .section-projects-h4 {
     font-size: 35px;
 
 }
