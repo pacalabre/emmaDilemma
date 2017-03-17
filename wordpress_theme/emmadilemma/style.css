@@ -234,7 +234,7 @@ nav .brand-logo {
   z-index: 0; }
 
 .section-projects-h3 {
-  font-family: lato;
+/*  font-family: lato;*/
   display: none;
   color: #e1e1e1;
   font-size: 32px;
@@ -318,7 +318,7 @@ nav .brand-logo {
   display: block !important; }
 
 .section-projects-page-h3 {
-  font-family: lato;
+/*  font-family: lato;*/
   display: none;
   color: #e1e1e1;
   font-size: 30px;
@@ -346,7 +346,7 @@ nav .brand-logo {
 
 .filter-btn {
   color: #e70e51;
-  font-family: lato;
+/*  font-family: lato;*/
   border: none;
   background-color: transparent;
   text-transform: uppercase;
