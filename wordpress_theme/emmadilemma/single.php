@@ -7,7 +7,7 @@
  * @package CustomTheme
  * @since CustomTheme 1.0
  */
- get_header(); 
+ get_header();
  ?>
 <div class="container">
     <div class="row">
@@ -15,7 +15,7 @@
             <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) :  the_post(); ?>
                     <h2 class="single-h2"><?php the_title(); ?></h2>
-                    <div class="col s12 offset-s0 m10 offset-m1 l8 offset-l2">
+                    <div class="col s10 offset-s1 m10 offset-m1 l8 offset-l2">
                         <?php the_content(); ?>
                     </div>
                 <?php endwhile; ?>
