@@ -50,7 +50,7 @@ input[type=text], input[type=password], input[type=email], input[type=url], inpu
 .btn {
   border-radius: 0px;
   font-size: 20px;
-  font-family: Lato;
+/*  font-family: Lato;*/
   font-weight: 400;
   background-color: #e70e51;
   box-shadow: 0 0px; }
