@@ -18,9 +18,10 @@ body {
 
 main {
   margin-top: 20px; }
-
+/*
 h1, h2, h3, h4, h5, h6 {
   font-family: lato; }
+*/
 
 input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
   border: solid thin #222;
@@ -113,7 +114,7 @@ nav .brand-logo {
   font-weight: 300;
   color: white;
   text-transform: uppercase; }
-  
+
 .current-menu-item {
   border-bottom: solid #5bbdb8;
 }
@@ -226,7 +227,7 @@ nav .brand-logo {
 .section-projects-block-two, .section-projects-block-four {
   margin-left: 5px;
   padding-right: 5px; }
-  
+
 .section-projects-img-computers {
   max-width: 100%;
   height: auto;
@@ -286,7 +287,7 @@ nav .brand-logo {
 /* Project Page */
 .section-project-page-grid {
   margin: 60px 0px; }
-  
+
 .category-nav {
   display: inline;
   background: #e70e51;
@@ -306,7 +307,7 @@ nav .brand-logo {
 }
 
 .gallery-container {
-  line-height: 0; 
+  line-height: 0;
 }
 
 .tint4 > .wp-post-image  {
@@ -350,7 +351,7 @@ nav .brand-logo {
   background-color: transparent;
   text-transform: uppercase;
   font-size: 20px; }
-  
+
 .size-post-thumbnail {
   height: 100%;
   width: 100%;
@@ -374,7 +375,7 @@ nav .brand-logo {
 .single-main > div > p > img {
   height: 100%;
   width: 100%;
-} 
+}
 
 /* Funsies Page */
 .funsies-p {
@@ -432,9 +433,9 @@ nav .brand-logo {
   border: thin solid;
   box-sizing: border-box;
   height: 200px; }
-  
+
  /* Footer */
-  
+
 .footer {
   text-align: center;
   margin: 60px 0px; }
@@ -601,7 +602,7 @@ ul > li > a:hover {
 
   .about-header {
     background-attachment: scroll; }
-    
+
   .section-headline-blog-page {
     margin: 50px 40% 30px 40%;
   }
@@ -614,10 +615,10 @@ ul > li > a:hover {
 
   .tint:hover:after, .tint2:hover:after, .tint3:hover:after, .tint4:hover:after {
     display: none; } }
-    
+
 
 @media only screen and (min-width: 601px) {
-  
+
   .tint4 > .wp-post-image {
    margin-top: 0px;
    }
@@ -638,7 +639,7 @@ ul > li > a:hover {
 
   .section-headline {
     margin: 50px 40%; }
-    
+
   .section-headline-blog-page {
     margin: 50px 40% 30px 40%;
   }
@@ -654,8 +655,8 @@ ul > li > a:hover {
     width: 50%; }
 
   .emma-img {
-    width: 175px; } 
-  
+    width: 175px; }
+
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
@@ -680,12 +681,12 @@ ul > li > a:hover {
   .section-headline {
     font-size: 30px;
     margin: 10px 39%; }
-    
+
   .section-headline-blog-page {
     margin-top: 50px;
     margin-bottom: 35px;
   }
-  
+
   .category-nav-item {
     float: left;
     padding: 0px 20px;
@@ -712,7 +713,7 @@ ul > li > a:hover {
     width: 200px; }
 
   .background-div-video {
-    display: block; } 
-  
+    display: block; }
+
 }
 
