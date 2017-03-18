@@ -576,6 +576,7 @@ ul > li > a:hover {
   display: none; }
 
 @media only screen and (min-width: 0) and (max-width: 600px) {
+
   .section-projects-row-one {
     padding-bottom: 0px; }
 
@@ -616,6 +617,15 @@ ul > li > a:hover {
 
   .tint:hover:after, .tint2:hover:after, .tint3:hover:after, .tint4:hover:after {
     display: none; } }
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+
+   iframe {
+    height: auto !important;
+    width: auto !important;
+  }
+
+}
 
 
 @media only screen and (min-width: 601px) {
